@@ -9,7 +9,7 @@
 // Description          : Juste un "hello world" 
 //
 //
-// Remarques :           
+// Remarques			: test demo       
 //----------------------------------------------------------------------------------//
 //-- librairie standart --//
 #include <stdio.h>				// appel de la librairie pour les I/O 
@@ -31,4 +31,7 @@ void main(void)
 	//#pragma warning(suppress : 4996)
 	scanf("%d", &valeurRecup); 
 
+	if (valeurRecup != 0)
+		printf("vous etes un nouveau etudiant"); 
+	
 }
